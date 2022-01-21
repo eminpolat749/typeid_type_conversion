@@ -1,0 +1,10 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include<iostream>
+using namespace std;
+int main()
+{
+	long x = 10;
+	unsigned int y = 5;
+	cout << typeid(x + y).name() << "\n";
+
+}
